@@ -19,8 +19,9 @@ Pillow==10.1.0
 protobuf==4.21.12
 requests==2.31.0
 sympy==1.12
-# torch==2.1.1+cpu
-# torchvision==0.16.1+cpu
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==2.1.1+cpu
+torchvision==0.16.1+cpu
 typing_extensions==4.8.0
 urllib3==2.1.0
 Werkzeug==3.0.1
