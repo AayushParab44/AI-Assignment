@@ -29,7 +29,7 @@ db_connection = mysql.connector.connect(
     # host='db',
     port=3306,
     user="root",
-    password="aayush12@",
+    password="your password",  #Enter your mysql password here
     database="your_database_name"
 )
 cursor = db_connection.cursor()
