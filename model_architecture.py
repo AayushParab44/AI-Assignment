@@ -1,3 +1,4 @@
+#Model Architecture
 import torch
 from torch import nn
 
