@@ -15,7 +15,7 @@ app = Flask(__name__)
 #device setting
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-#import the MNIST model arch.
+#import the MNIST model architecture
 from model_architecture import MNIST_model
 
 #Load the model
@@ -27,7 +27,7 @@ db_connection = mysql.connector.connect(
     port=3306,
     user="root",
     password="your password",  #Enter your mysql password here
-    database="your_database_name"
+    database="your_database_name"  #Enter the name of the database here
 )
 cursor = db_connection.cursor()
 
