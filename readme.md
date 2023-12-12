@@ -37,14 +37,15 @@ These are required to be installed on the machine:
 ## Application Structure
 
 The application is structured as follows:
--templates/: Stores HTML templates for the web application.
--test_images/: Directory for test images used by the application.
--final_app.py: The main script for running the Flask app.
--requirements.txt: Lists Python dependencies for the Flask app.
--file.sql: contains sql code to create the database.
--MNIST_with_pytorch.ipynb: contains code to create,train and save the model. I had run this notebook on google colab.
--my_model.pth: the MNIST model
--docker-compose.yml, Dockerfile- the Docker files
+
+- **templates/:** Stores HTML templates for the web application.
+- **test_images/:** Directory for test images used by the application.
+- **final_app.py:** The main script for running the Flask app.
+- **requirements.txt:** Lists Python dependencies for the Flask app.
+- **file.sql:** Contains SQL code to create the database.
+- **MNIST_with_pytorch.ipynb:** Contains code to create, train, and save the model. I had run this notebook on Google Colab.
+- **my_model.pth:** The MNIST model.
+- **docker-compose.yml, Dockerfile:** The Docker files.
 
 ## Usage
 
