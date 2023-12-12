@@ -9,8 +9,9 @@ This repository contains a Flask web application with a MySQL database backend. 
 
 ## Prerequisites
 These are required to be installed on the machine:
+- Git
 - Python
-- MySQL Database
+- MySQL Database and Workbench
 
 ## Getting Started
 1. Clone this repository:
