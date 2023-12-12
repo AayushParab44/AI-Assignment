@@ -8,10 +8,7 @@ import mysql.connector
 import torch 
 from PIL import Image 
      
-# from torch import nn 
-# from torchvision import datasets,transforms
 from torchvision import transforms
-
 
 app = Flask(__name__)
 
